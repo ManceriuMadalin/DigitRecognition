@@ -26,6 +26,9 @@ git clone https://github.com/your-username/digit-recognizer.git
 cd digit-recognizer
 dotnet run
 ```
+
+---
+
 ## 🎮 Controls
 
 Enter coordinates in the format x,y (e.g. 2,3 4,5) to activate cells.
@@ -36,7 +39,9 @@ Available commands:
 - t – retrain the network from scratch
 - q – quit the application
   
-##🧠 Neural Network Details
+---
+  
+## 🧠 Neural Network Details
 
 - Grid size: 10x10 (100 input neurons)
 - Hidden layer: 300 neurons
@@ -44,11 +49,16 @@ Available commands:
 - Activation function: Sigmoid
 - Data persistence: JSON serialization
   
-##🔧 Possible Improvements
+---
+  
+## 🔧 Possible Improvements
 
 - Add GUI (WinForms/WPF) or mouse input
 - Integrate real-world datasets (e.g. simplified MNIST)
 - Visualize learning progress or weight matrices
-##✍️ Author
+  
+---
+  
+## ✍️ Author
 
 - Created with ❤️ by Manceriu Mădălin
